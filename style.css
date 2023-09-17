@@ -412,4 +412,149 @@ textarea #id {
     z-index: 10;
 }
 
+
 /* footer end */
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 6034px;
+        margin-left: 0%;
+    }
+
+    .top-name {
+        width: 100%;
+        left: 0;
+        z-index: 10;
+        text-align: center;
+    }
+
+    .social-links {
+        width: 100%;
+        left: 0;
+        top: 53.78px;
+    }
+
+    .profile-image-frame {
+        width: 100%;
+        left: 0;
+        height: 383px;
+        overflow: hidden;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 383px;
+        top: 100px;
+    }
+
+    .section-2 {
+        width: 100%;
+        height: 900px;
+        left: 0;
+        top: 800px;
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+
+    }
+
+    .section-2 p,
+    .section-2 h1 {
+        display: grid;
+        justify-items: center;
+    }
+
+    .section-3 {
+        width: 100%;
+        height: 40px;
+        left: 0;
+        top: 1800px;
+        
+
+    }
+
+    .section-3 h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+
+    .contact-me-linked-projects {
+        position: absolute;
+        left: 65.01%;
+        right: 0%;
+        top: 2.5%;
+        bottom: 2.5%;
+    }
+
+    .contact-me-linked-projects h1 {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .projects-section {
+        position: absolute;
+        width: 100%;
+        height: 3200px;
+        margin-top: -70px;
+        /* margin-top: 100px ; */
+        left: 0;
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    }
+
+    #section-4 {
+        
+
+        width: 100%;
+        height: 834px;
+        left: 0px;
+        top: 5200px;
+    }
+
+    .contact-me-left-side {
+        
+        width: 100%;
+        height: 138px;
+        left: 0;
+    }
+
+    .contact-me-left-side h1 {
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        left: calc(50% - 343px/2);
+        top: calc(50% - 40px/2 - 49px);
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height, or 100% */
+        text-align: center;
+        letter-spacing: -1.13636px;
+
+        /* White */
+        color: #FFFFFF;
+    }
+
+    .contact-me-left-side p {
+        position: absolute;
+        height: 78px;
+        left: 0%;
+        right: 0%;
+        margin-top: 50px;
+        /* top: calc(50% - 78px/2 + 30px); */
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .form-right-side {
+       
+        width: 100%;
+        height: 327px;
+        left: 0;
+        margin-top: 200px;
+    }
+}
